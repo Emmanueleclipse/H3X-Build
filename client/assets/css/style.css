@@ -26623,3 +26623,15 @@ input[type=number]::-webkit-outer-spin-button {
      bottom: -160px;
      left: 15px;
 }
+
+.name {
+    width: 655px;
+    margin: auto;
+}
+
+@media screen and (max-width: 990px) {
+    .name {
+        width: 400;
+        margin: auto;
+    }
+  }
